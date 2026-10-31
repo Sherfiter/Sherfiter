@@ -31,22 +31,47 @@
 <text x="44" y="489" font-size="20" fill="#0a6b52" xml:space="preserve">sherfiter@local:~$ </text>
 <rect x="272" y="468" width="10" height="20" fill="#0a6b52"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.05s" repeatCount="indefinite"/></rect>
 </g>
-<g transform="translate(772,424)">
+<g transform="translate(736,392)" stroke="#0b5c2e" fill="none"
+     stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+
+  <!-- 尾巴（先画，压在身体后面） -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.6;0,0"
-      keyTimes="0;0.5;1" dur="3.6s" repeatCount="indefinite"/>
-    <path d="M13 4 L26 27 C32 23 46 23 52 27 L63 4 C67 24 69 33 69 43 C69 58 54 67 38 67 C22 67 7 58 7 43 C7 33 9 24 13 4 Z" fill="none" stroke="#0b5c2e" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
-    <line x1="21" y1="34" x2="34" y2="37.5" stroke="#0b5c2e" stroke-width="5.5" stroke-linecap="round"/>
-    <line x1="54" y1="34" x2="41" y2="37.5" stroke="#0b5c2e" stroke-width="5.5" stroke-linecap="round"/>
-    <ellipse cx="29" cy="45" rx="2.6" ry="3.4" fill="#0b5c2e">
-      <animate attributeName="ry" values="3.4;3.4;0.5;3.4" keyTimes="0;0.86;0.9;0.94"
-        dur="4.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="47" cy="45" rx="2.6" ry="3.4" fill="#0b5c2e">
-      <animate attributeName="ry" values="3.4;3.4;0.5;3.4" keyTimes="0;0.86;0.9;0.94"
-        dur="4.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="31" cy="57" rx="8" ry="4.8" fill="#0b5c2e" opacity="0.95"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-10 88 78;12 88 78;-10 88 78" dur="0.85s" repeatCount="indefinite"/>
+    <path d="M88 80 C102 78 108 62 98 54"/>
+  </g>
+
+  <!-- 身体（坐姿） -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.4;0,0"
+      keyTimes="0;0.5;1" dur="3.4s" repeatCount="indefinite"/>
+    <path d="M34 100 C24 82 30 62 50 59 L68 59 C88 62 94 82 84 100 Z"/>
+    <line x1="47" y1="88" x2="47" y2="101"/>
+    <line x1="68" y1="88" x2="68" y2="101"/>
+
+    <!-- 头 -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 58 40;2.4 58 40;0 58 40;-2.4 58 40;0 58 40"
+        keyTimes="0;0.25;0.5;0.75;1" dur="6.5s" repeatCount="indefinite"/>
+      <!-- 耳朵 -->
+      <path d="M39 27 L33 4 L54 20 Z"/>
+      <path d="M77 27 L83 4 L62 20 Z"/>
+      <!-- 头骨 -->
+      <path d="M32 41 C32 27 43 21 58 21 C73 21 84 27 84 41 C84 55 73 62 58 62 C43 62 32 55 32 41 Z"/>
+      <!-- 眼睛 -->
+      <ellipse cx="49" cy="40" rx="2.9" ry="3.7" fill="#0b5c2e">
+        <animate attributeName="ry" values="3.6;3.6;0.6;3.6" keyTimes="0;0.88;0.91;0.95"
+          dur="4.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="67" cy="40" rx="2.9" ry="3.7" fill="#0b5c2e">
+        <animate attributeName="ry" values="3.6;3.6;0.6;3.6" keyTimes="0;0.88;0.91;0.95"
+          dur="4.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- 鼻子 + 嘴 -->
+      <path d="M53 49 C53 46 63 46 63 49 C63 52 59 54 58 54 C57 54 53 52 53 49 Z" fill="#0b5c2e"/>
+      <path d="M58 55 L58 58 M58 58 C55 61 52 60 51 58 M58 58 C61 61 64 60 65 58" stroke-width="3.4"/>
+    </g>
   </g>
 </g>
 </g>
