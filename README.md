@@ -1,17 +1,12 @@
 <!--
-  用法：新建仓库 Sherfiter/Sherfiter（名字必须和用户名一致），
-  勾选 "Add a README file"，把这个文件的内容全部粘进去，提交即可。
-  带 ※ 的行请按你的真实情况改掉。
+  Sherfiter/Sherfiter · profile README
+  改内容直接编辑本文件；第一次推送后，后续走 git push 即可。
 -->
-
-<div align="center">
 
 ```console
 nobody77@zhengzhou ~ % whoami
-Sherfiter   (a.k.a. Fitness77)
+Sherfiter   (Fitness77)
 ```
-
-</div>
 
 ```console
 nobody77@zhengzhou ~ % cat ~/.profile
@@ -23,13 +18,17 @@ nobody77@zhengzhou ~ % cat ~/.profile
 ```
 
 ```console
-nobody77@zhengzhou ~ % ls -l ~/projects
-drwxr-xr-x  WinFontBeauty/                 →  Win11 字体修改工具（C#）
-drwxr-xr-x  sowon-personal-windows/        →  sowon 的 Windows 个人版（C）※
-drwxr-xr-x  todo/                          →  命令行待办（C）※
-drwxr-xr-x  Wiki/                          →  操作系统课程笔记（整理自 jyy）
-drwxr-xr-x  slides/                        →  Python 小工具集 ※
+nobody77@zhengzhou ~ % ls ~/projects
+WinFontBeauty  sowon-personal-windows-verison  slides  Wiki  todo
 ```
+
+| 项目 | 是什么 |
+| --- | --- |
+| **[WinFontBeauty](https://github.com/Sherfiter/WinFontBeauty)** | Win10 / 11 全局字体修改工具。能分槽替换标题栏、图标、菜单、消息框等六处系统字体，改完一键重启资源管理器生效，也能一键恢复默认 |
+| **[sowon-personal-windows-verison](https://github.com/Sherfiter/sowon-personal-windows-verison)** | 基于 [Tsoding/sowon](https://github.com/tsoding/sowon) 的手绘抖动风时钟，加了无边框窗口、托盘常驻、自绘窗口按钮，能当时钟 / 秒表 / 番茄钟用 |
+| **[slides](https://github.com/Sherfiter/slides)** | 终端里的 Markdown 幻灯片播放器，`j/k` 选、回车进，带「目录 → 章节 → 小节」两级导航 |
+| **[Wiki](https://github.com/Sherfiter/Wiki)** | MDX 驱动的静态个人 Wiki，整理自学笔记与踩坑记录（复刻自 jyy） |
+| **[todo](https://github.com/Sherfiter/todo)** | 纯 C 写的跨平台命令行待办，三层单向依赖，逻辑和存储不碰界面代码 |
 
 ```console
 nobody77@zhengzhou ~ % ps aux | grep 在忙什么
@@ -42,9 +41,7 @@ nobody77@zhengzhou ~ % ps aux | grep 在忙什么
 
 <div align="center">
 
-### `git log --stat`
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherfiter&theme=github_dark" alt="profile summary">
+#### 语言分布
 
 <table>
 <tr>
@@ -53,14 +50,18 @@ nobody77@zhengzhou ~ % ps aux | grep 在忙什么
 </tr>
 </table>
 
-<img src="https://streak-stats.demolab.com?user=Sherfiter&theme=github-dark&hide_border=true" alt="streak">
-
-<!-- 有博客/网站了再把下面这行取消注释，改成你的链接 -->
-<!-- [blog](https://example.com) · [mail](mailto:you@example.com) -->
-
 <img src="https://komarev.com/ghpvc/?username=Sherfiter&style=flat-square&color=58a6ff&label=visitors" alt="visitors">
 
 </div>
+
+<!--
+  贡献曲线和 streak 卡先关掉：目前数据只有个位数，摆出来反而难看。
+  等邮箱问题修好、贡献格攒起来之后，把下面两行的注释去掉即可。
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherfiter&theme=github_dark" alt="profile summary">
+
+<img src="https://streak-stats.demolab.com?user=Sherfiter&theme=github-dark&hide_border=true" alt="streak">
+-->
 
 ```console
 nobody77@zhengzhou ~ % exit
