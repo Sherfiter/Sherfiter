@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Sherfiter">
-    <img src="https://raw.githubusercontent.com/Sherfiter/Sherfiter/main/assets/terminal.svg" alt="sherfiter@local — a live VT-220 terminal: whoami, ~/.profile, ~/projects" width="860">
+    <img src="https://raw.githubusercontent.com/Sherfiter/Sherfiter/main/assets/console.svg" alt="sherfiter@local — a live VT-220 terminal: whoami, ~/.profile, ~/projects" width="860">
   </a>
 </p>
 
