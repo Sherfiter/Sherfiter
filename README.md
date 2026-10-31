@@ -17,15 +17,10 @@ nobody77@zhengzhou ~ % cat ~/.profile
   motto   能跑就别动它 —— 但我们还是要动
 ```
 
-```console
-nobody77@zhengzhou ~ % ls ~/projects
-WinFontBeauty  sowon-personal-windows-verison  slides  Wiki  todo
-```
-
 | 项目 | 是什么 |
 | --- | --- |
 | **[WinFontBeauty](https://github.com/Sherfiter/WinFontBeauty)** | Win10 / 11 全局字体修改工具。能分槽替换标题栏、图标、菜单、消息框等六处系统字体，改完一键重启资源管理器生效，也能一键恢复默认 |
-| **[sowon-personal-windows-verison](https://github.com/Sherfiter/sowon-personal-windows-verison)** | 基于 [Tsoding/sowon](https://github.com/tsoding/sowon) 的手绘抖动风时钟，加了无边框窗口、托盘常驻、自绘窗口按钮，能当时钟 / 秒表 / 番茄钟用 |
+| **[sowon](https://github.com/Sherfiter/sowon-personal-windows-verison)** <sub>Windows 定制版</sub> | 基于 [Tsoding/sowon](https://github.com/tsoding/sowon) 的手绘抖动风时钟，加了无边框窗口、托盘常驻、自绘窗口按钮，能当时钟 / 秒表 / 番茄钟用 |
 | **[slides](https://github.com/Sherfiter/slides)** | 终端里的 Markdown 幻灯片播放器，`j/k` 选、回车进，带「目录 → 章节 → 小节」两级导航 |
 | **[Wiki](https://github.com/Sherfiter/Wiki)** | MDX 驱动的静态个人 Wiki，整理自学笔记与踩坑记录（复刻自 jyy） |
 | **[todo](https://github.com/Sherfiter/todo)** | 纯 C 写的跨平台命令行待办，三层单向依赖，逻辑和存储不碰界面代码 |
