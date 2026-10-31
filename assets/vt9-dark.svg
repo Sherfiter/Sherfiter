@@ -47,18 +47,18 @@
   <!-- 地上的小红花 -->
   <g>
     <animateTransform attributeName="transform" type="rotate"
-      values="-5 -6 80;5 -6 80;-5 -6 80" dur="3.6s" repeatCount="indefinite"
+      values="-5 -18 81;5 -18 81;-5 -18 81" dur="3.6s" repeatCount="indefinite"
       calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-    <path d="M-6 81 C-6 75 -6 71 -6 67" stroke="#2f9e44" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M-6 75 C-10.5 74 -12.5 71 -12 68 M-6 71.5 C-1.5 70.5 0.5 67 0 64.5"
+    <path d="M-18 81 C-18 75 -18 71 -18 67" stroke="#2f9e44" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <path d="M-18 75 C-22.5 74 -24.5 71 -24 68 M-18 71.5 C-13.5 70.5 -11.5 67 -12 64.5"
           stroke="#2f9e44" stroke-width="2.4" fill="none" stroke-linecap="round"/>
     <g fill="#e03b3b">
-      <circle cx="-6" cy="61" r="3.6"/>
-      <circle cx="-0.2" cy="64.9" r="3.6"/>
-      <circle cx="-2.4" cy="71.3" r="3.6"/>
-      <circle cx="-9.6" cy="71.3" r="3.6"/>
-      <circle cx="-11.8" cy="64.9" r="3.6"/>
-      <circle cx="-6" cy="66" r="2.6" fill="#ffd43b"/>
+      <circle cx="-18" cy="61" r="3.6"/>
+      <circle cx="-12.2" cy="64.9" r="3.6"/>
+      <circle cx="-14.4" cy="71.3" r="3.6"/>
+      <circle cx="-21.6" cy="71.3" r="3.6"/>
+      <circle cx="-23.8" cy="64.9" r="3.6"/>
+      <circle cx="-18" cy="66" r="2.6" fill="#ffd43b"/>
     </g>
   </g>
 
