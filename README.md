@@ -43,5 +43,5 @@ logout
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sherfiter/Sherfiter/main/assets/cursor.gif" alt="cursor" width="300">
+  <img src="https://raw.githubusercontent.com/Sherfiter/Sherfiter/main/assets/cursor.gif" alt="cursor" width="880">
 </p>
