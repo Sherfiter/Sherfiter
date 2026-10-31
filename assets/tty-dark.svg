@@ -32,46 +32,55 @@
 <text x="44" y="489" font-size="20" fill="#39d7c0" xml:space="preserve">sherfiter@local:~$ </text>
 <rect x="272" y="468" width="10" height="20" fill="#39d7c0"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.05s" repeatCount="indefinite"/></rect>
 </g>
-<g transform="translate(736,392)" stroke="#3aff70" fill="none"
-     stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+<g transform="translate(700,356) scale(1.12)" stroke="#3aff70" fill="none"
+     stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
 
-  <!-- 尾巴（先画，压在身体后面） -->
+  <!-- 胡萝卜尾巴 -->
   <g>
     <animateTransform attributeName="transform" type="rotate"
-      values="-10 88 78;12 88 78;-10 88 78" dur="0.85s" repeatCount="indefinite"/>
-    <path d="M88 80 C102 78 108 62 98 54"/>
+      values="-12 88 86;12 88 86;-12 88 86" dur="0.9s" repeatCount="indefinite"/>
+    <path d="M88 88 C101 84 104 66 97 54" stroke-width="9"/>
   </g>
 
-  <!-- 身体（坐姿） -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.4;0,0"
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.3;0,0"
       keyTimes="0;0.5;1" dur="3.4s" repeatCount="indefinite"/>
-    <path d="M34 100 C24 82 30 62 50 59 L68 59 C88 62 94 82 84 100 Z"/>
-    <line x1="47" y1="88" x2="47" y2="101"/>
-    <line x1="68" y1="88" x2="68" y2="101"/>
 
-    <!-- 头 -->
+    <!-- 短腿 -->
+    <path d="M45 100 L45 112" stroke-width="7"/>
+    <path d="M71 100 L71 112" stroke-width="7"/>
+
+    <!-- 身体 -->
+    <path d="M 87.9 88.3 Q 89.3 94.1 83.6 98.0 Q 81.6 103.7 74.3 105.3 Q 69.3 109.8 61.7 108.8 Q 54.7 111.2 48.4 107.8 Q 40.8 107.6 37.0 102.5 Q 30.3 99.7 29.8 93.9 Q 25.3 89.1 28.1 83.7 Q 26.7 77.9 32.4 74.0 Q 34.4 68.3 41.7 66.7 Q 46.7 62.2 54.3 63.2 Q 61.3 60.8 67.6 64.2 Q 75.2 64.4 79.0 69.5 Q 85.7 72.3 86.2 78.1 Q 90.7 82.9 87.9 88.3 Z"/>
+
     <g>
       <animateTransform attributeName="transform" type="rotate"
-        values="0 58 40;2.4 58 40;0 58 40;-2.4 58 40;0 58 40"
-        keyTimes="0;0.25;0.5;0.75;1" dur="6.5s" repeatCount="indefinite"/>
-      <!-- 耳朵 -->
-      <path d="M39 27 L33 4 L54 20 Z"/>
-      <path d="M77 27 L83 4 L62 20 Z"/>
-      <!-- 头骨 -->
-      <path d="M32 41 C32 27 43 21 58 21 C73 21 84 27 84 41 C84 55 73 62 58 62 C43 62 32 55 32 41 Z"/>
+        values="0 58 42;2.2 58 42;0 58 42;-2.2 58 42;0 58 42"
+        keyTimes="0;0.25;0.5;0.75;1" dur="7s" repeatCount="indefinite"/>
+
+      <!-- 耳朵（先画，头会盖住根部） -->
+      <path d="M37 28 C31 17 28 8 30 4 C41 8 52 15 57 22 Z"/>
+      <path d="M79 28 C85 17 88 8 86 4 C75 8 64 15 59 22 Z"/>
+
+      <!-- 头 -->
+      <path d="M 83.1 48.2 Q 83.2 55.4 76.4 58.9 Q 72.6 65.3 64.8 65.2 Q 58.1 68.9 51.3 65.2 Q 43.5 65.3 39.6 59.0 Q 32.8 55.5 32.9 48.3 Q 28.9 42.0 32.9 35.8 Q 32.8 28.6 39.6 25.1 Q 43.4 18.7 51.2 18.8 Q 57.9 15.1 64.7 18.8 Q 72.5 18.7 76.4 25.0 Q 83.2 28.5 83.1 35.7 Q 87.1 42.0 83.1 48.2 Z"/>
+
+      <!-- 嘴边两撮胡须 -->
+      <path d="M47 52 C43 53 41 56 41 59" stroke-width="3.2"/>
+      <path d="M69 52 C73 53 75 56 75 59" stroke-width="3.2"/>
+
       <!-- 眼睛 -->
-      <ellipse cx="49" cy="40" rx="2.9" ry="3.7" fill="#3aff70">
-        <animate attributeName="ry" values="3.6;3.6;0.6;3.6" keyTimes="0;0.88;0.91;0.95"
+      <ellipse cx="49" cy="36" rx="3" ry="3.8" fill="#3aff70">
+        <animate attributeName="ry" values="3.7;3.7;0.6;3.7" keyTimes="0;0.88;0.91;0.95"
           dur="4.6s" repeatCount="indefinite"/>
       </ellipse>
-      <ellipse cx="67" cy="40" rx="2.9" ry="3.7" fill="#3aff70">
-        <animate attributeName="ry" values="3.6;3.6;0.6;3.6" keyTimes="0;0.88;0.91;0.95"
+      <ellipse cx="67" cy="36" rx="3" ry="3.8" fill="#3aff70">
+        <animate attributeName="ry" values="3.7;3.7;0.6;3.7" keyTimes="0;0.88;0.91;0.95"
           dur="4.6s" repeatCount="indefinite"/>
       </ellipse>
-      <!-- 鼻子 + 嘴 -->
-      <path d="M53 49 C53 46 63 46 63 49 C63 52 59 54 58 54 C57 54 53 52 53 49 Z" fill="#3aff70"/>
-      <path d="M58 55 L58 58 M58 58 C55 61 52 60 51 58 M58 58 C61 61 64 60 65 58" stroke-width="3.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M52 47 C52 43 64 43 64 47 C64 51 59 54 58 54 C57 54 52 51 52 47 Z" fill="#3aff70"/>
     </g>
   </g>
 </g>
